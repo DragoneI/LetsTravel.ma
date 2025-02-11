@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Let's Travel- Voyage</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Gabarito:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tajawal:wght@200..800&family=Cairo:wght@200..800&family=Amiri:wght@400;700&family=Changa:wght@300..800&family=Lalezar&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="top">
+
+ <!-- 
+    - #HEADER
+-->
+<header class="header" data-header>
+    <div class="container">
+
+        <a href="#" class="logo">
+            <img src="./assets/images/logo.png" alt="Let's Travel logo">
+        </a>
+
+        <button class="nav-toggle-btn" data-lang-toggle aria-label="Changer de langue">
+            <ion-icon name="globe-outline"></ion-icon>
+        </button>
+
+        <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+            <ion-icon name="menu-outline" class="open"></ion-icon>
+            <ion-icon name="close-outline" class="close"></ion-icon>
+        </button>
+
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="#home" class="navbar-link" data-lang="home">Home</a></li>
+                <li><a href="#destinations" class="navbar-link" data-lang="destinations">Destinations</a></li>
+                <li><a href="#voyages" class="navbar-link" data-lang="voyages">Voyages</a></li>
+                <li><a href="#apropos" class="navbar-link" data-lang="about">À propos de nous</a></li>
+                <li><a href="#footer" class="navbar-link" data-lang="external_links">Liens externes</a></li>
+                <a href="#" class="btn btn-secondary" data-lang="contact">Contactez-nous ☎️</a>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+
+  
+    
+
+      <!-- 
+        - #HERO
+-->
+<section id="home" class="section hero">
+    <div class="container">
+        <div class="hero-content">
+            <p data-lang="explore" class="section-subtitle">Explorez nos voyages</p>
+            <h2 data-lang="welcome" class="hero-title">Bienvenue chez Let's Travel</h2>
+            <p data-lang="experience" class="hero-text">
+                Vivez une expérience unique et un voyage inoubliable au cœur du Maroc.
+            </p>
+            <div class="btn-group">
+                <a href="#" class="btn btn-primary" data-lang="contact">Contactez-nous</a>
+            </div>
+        </div>
+        <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="686" height="812" loading="lazy" alt="hero banner"
+                class="w-100">
+        </figure>
+    </div>
+</section>
+
+<!-- 
+        - #CTA
+-->
+<section id="CTA" class="cta" aria-labelledby="cta-label">
+    <div class="container">
+        <h2 class="headline-md section-title" id="cta-label" data-lang="cta_text">
+            Let's Travel vous offre des expériences uniques pour des voyages inoubliables.
+        </h2>
+        <a href="#Category" class="btn btn-primary" data-lang="contact">Contactez-nous</a>
+    </div>
+</section>
+
+     <!-- 
+        - #DESTINATION
+-->
+<section id="destinations" class="section destination">
+    <div class="container">
+        <p class="section-subtitle" data-lang="destinations">Destinations</p>
+        <h2 class="h2 section-title" data-lang="choose_destination">Choisissez votre destination</h2>
+
+        <ul class="destination-list">
+            <li class="w-50">
+                <a href="oukaimeden.html" class="destination-card">
+                    <figure class="card-banner">
+                        <img src="./assets/images/oukaimeden.jpeg" width="1140" height="1300" loading="lazy"
+                            alt="Oukaïmeden, Maroc" class="img-cover">
+                    </figure>
+                    <div class="card-content">
+                        <p class="card-subtitle" data-lang="discover_morocco">Découvrez le Maroc</p>
+                        <h3 class="h3 card-title" data-lang="oukaimeden">Oukaïmeden</h3>
+                    </div>
+                </a>
+            </li>
+
+            <li class="w-50">
+                <a href="#" class="destination-card">
+                    <figure class="card-banner">
+                        <img src="./assets/images/imlil.jpeg" width="1140" height="1100" loading="lazy"
+                            alt="Imlil, Maroc" class="img-cover">
+                    </figure>
+                    <div class="card-content">
+                        <p class="card-subtitle" data-lang="winter_travel">Voyage d'hiver</p>
+                        <h3 class="h3 card-title" data-lang="imlil">Imlil</h3>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="ifrane.html" class="destination-card">
+                    <figure class="card-banner">
+                        <img src="./assets/images/ifrane.jpeg" width="1140" height="1100" loading="lazy"
+                            alt="Ifrane, Maroc" class="img-cover">
+                    </figure>
+                    <div class="card-content">
+                        <p class="card-subtitle" data-lang="winter_travel">Voyage d'hiver</p>
+                        <h3 class="h3 card-title" data-lang="ifrane">Ifrane</h3>
+                    </div>
+                </a>
+            </li>
+            
+            <li>
+                <a href="#" class="destination-card">
+                    <figure class="card-banner">
+                        <img src="./assets/images/chefchaouen.jpg" width="1140" height="1100" loading="lazy"
+                            alt="Ifrane, Maroc" class="img-cover">
+                    </figure>
+                    <div class="card-content">
+                        <p class="card-subtitle" data-lang="nord_maroc">Nord du Maroc</p>
+                        <h3 class="h3 card-title" data-lang="chamal">Chamal</h3>
+                    </div>
+                </a>
+            </li>
+            
+            <li>
+                <a href="#" class="destination-card">
+                    <figure class="card-banner">
+                        <img src="./assets/images/chefchaouen.jpg" width="1140" height="1100" loading="lazy"
+                            alt="Ifrane, Maroc" class="img-cover">
+                    </figure>
+                    <div class="card-content">
+                        <p class="card-subtitle" data-lang="nord_maroc">Nord du Maroc</p>
+                        <h3 class="h3 card-title" data-lang="chamal">Chamal</h3>
+                    </div>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</section>
+
+<!-- 
+        - #POPULAR
+-->
+<section id="voyages" class="section popular">
+    <div class="container">
+        <p class="section-subtitle" data-lang="featured_tours">Featured Tours</p>
+        <h2 class="h2 section-title" data-lang="popular_tours">Nos tournées les plus populaires</h2>
+
+        <ul class="popular-list">
+            <li>
+                <div class="popular-card">
+                    <figure class="card-banner">
+                        <a href="ifrane.html">
+                            <img src="./assets/images/ifrane.jpeg" width="740" height="518" loading="lazy"
+                                alt="Ifrane, Maroc" class="img-cover">
+                        </a>
+                        <span class="card-badge">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="P12D">12 Days</time>
+                    </figure>
+                    <div class="card-content">
+                        
+       <div class="card-wrapper">
+                    <div class="card-price">350 DH</div>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="2">(2)</data>
+                    </div>
+                  </div>                
+                        
+                        <h3 class="card-title">
+                            <a href="#" data-lang="ifrane_desc">Découvrez la Suisse du Maroc, dans un voyage inoubliable.</a>
+                        </h3>
+                        <address class="card-location" data-lang="ifrane">Ifrane, Maroc</address>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="popular-card">
+                    <figure class="card-banner">
+                        <a href="#">
+                            <img src="./assets/images/oukaimeden.jpeg" width="740" height="518" loading="lazy"
+                                alt="Oukaimeden, Maroc" class="img-cover">
+                        </a>
+                  <span class="card-badge">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="P12D">12 Days</time>
+                    </figure>
+                    <div class="card-content">
+                        
+       <div class="card-wrapper">
+                    <div class="card-price">350 DH</div>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="2">(2)</data>
+                    </div>
+                  </div>                
+                         
+                    <div class="card-content">
+                        <h3 class="card-title">
+                            <a href="#" data-lang="oukaimeden_desc">Découvrez la station de ski Oukaïmeden.</a>
+                        </h3>
+                        <address class="card-location" data-lang="oukaimeden">Oukaïmeden, Maroc</address>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="popular-card">
+                    <figure class="card-banner">
+                        <a href="#">
+                            <img src="./assets/images/imlil.jpeg" width="740" height="518" loading="lazy"
+                                alt="imlil, Maroc" class="img-cover">
+                        </a>
+                  <span class="card-badge">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="P12D">12 Days</time>
+                    </figure>
+                    <div class="card-content">
+                        
+       <div class="card-wrapper">
+                    <div class="card-price">350 DH</div>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="2">(2)</data>
+                    </div>
+                  </div>                
+                         
+                    <div class="card-content">
+                        <h3 class="card-title">
+                            <a href="#" data-lang="immil_desc">Découvrez Imlil.</a>
+                        </h3>
+                        <address class="card-location" data-lang="imlil">Imlil, Maroc</address>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="popular-card">
+                    <figure class="card-banner">
+                        <a href="#">
+                            <img src="./assets/images/chefchaouen.jpg" width="740" height="518" loading="lazy"
+                                alt="Chefchaouen, Maroc" class="img-cover">
+                        </a>
+                  <span class="card-badge">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="P12D">12 Days</time>
+                    </figure>
+                    <div class="card-content">
+                        
+       <div class="card-wrapper">
+                    <div class="card-price">350 DH</div>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="2">(2)</data>
+                    </div>
+                  </div>                
+                         
+                    <div class="card-content">
+                        <h3 class="card-title">
+                            <a href="#" data-lang="chamal_desc">Explorer la beauté du Chamal-Nord.</a>
+                        </h3>
+                        <address class="card-location" data-lang="oukaimeden">Chamal, Maroc</address>
+                    </div>
+                </div>
+            </li>
+            
+            
+        </ul>
+    </div>
+</section>
+
+
+  <!-- 
+        - #ABOUT
+-->
+<section id="apropos" class="section about">
+    <div class="container">
+        <div class="about-content">
+            <p class="section-subtitle" data-lang="about">À propos de nous</p>
+            <h2 class="h2 section-title" data-lang="explore_with_us">Explorez avec nous le Maroc.</h2>
+            <p class="about-text" data-lang="unique_experiences">
+                Des expériences uniques et des voyages inoubliables aux confins des contrées les plus magnifiques du Maroc. Avec nous, vous découvrirez des paysages uniques.
+            </p>
+            <ul class="about-list">
+                <li class="about-item">
+                    <div class="about-item-icon">
+                        <ion-icon name="compass"></ion-icon>
+                    </div>
+                    <div class="about-item-content">
+                        <h3 class="h3 about-item-title" data-lang="excursions">Circuits et Excursions</h3>
+                        <p class="about-item-text" data-lang="excursions_text">
+                            Nous organisons des circuits et des excursions où vous serez pris en charge du début jusqu'à la fin.
+                        </p>
+                    </div>
+                </li>
+                <li class="about-item">
+                    <div class="about-item-icon">
+                        <ion-icon name="briefcase"></ion-icon>
+                    </div>
+                    <div class="about-item-content">
+                        <h3 class="h3 about-item-title" data-lang="best_prices">Prix imbattables</h3>
+                        <p class="about-item-text" data-lang="best_prices_text">
+                            Nos prix sont imbattables, permettant à n'importe qui de s'offrir un voyage unique.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <a href="#" class="btn btn-primary" data-lang="book_now">Réservez dès maintenant</a>
+        </div>
+        <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="756" height="842" loading="lazy" alt="about banner" class="w-100">
+        </figure>
+    </div>
+</section>
+
+<!-- 
+        - #FOOTER
+-->
+<footer id="footer" class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <ul class="footer-list">
+                <li>
+                    <p class="footer-list-title" data-lang="our_destinations">Nos destinations</p>
+                </li>
+                <li><a href="#" class="footer-link" data-lang="ifrane">Ifrane, Maroc</a></li>
+                <li><a href="#" class="footer-link" data-lang="oukaimeden">Oukaïmeden, Maroc</a></li>
+                <li><a href="#" class="footer-link" data-lang="imlil">Imlil, Maroc</a></li>
+                <li><a href="#" class="footer-link" data-lang="chamal">Chamal, Maroc</a></li>
+            </ul>
+            <ul class="footer-list">
+                <li>
+                    <p class="footer-list-title" data-lang="quick_links">Liens rapides</p>
+                </li>
+                <li><a href="#" class="footer-link" data-lang="about">À propos</a></li>
+                <li><a href="#" class="footer-link" data-lang="contact">Contact</a></li>
+                <li><a href="#" class="footer-link" data-lang="tours">Tours</a></li>
+                <li><a href="#" class="footer-link" data-lang="booking">Réservation</a></li>
+                <li><a href="#" class="footer-link" data-lang="terms">Conditions générales</a></li>
+            </ul>
+            <div class="footer-list">
+                <a href="#" class="logo">
+                    <img src="./assets/images/logo-2.png" alt="Let's Travel logo">
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright">
+                &copy; 2025 <a href="#" class="copyright-link">Let's Travel</a>. <span data-lang="rights">Tous droits réservés.</span>
+            </p>
+            <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          
+           <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top aria-label="Go To Top">
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/translate.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
